@@ -23,3 +23,6 @@ use"GHGE8AFL.dta",clear
 save "$path_out/Ghana22_gps.dta", replace
 ################################
 
+**Concerns and aspects to focus on**
+1) Clusters - are they representitive? if we are looking at average mpi and average empowerment is this really explantory?
+2) Empowerment - are we happy with the idea of averaging the empowerment - should be careful and decide maybe take a median value as opposed to the mean value. 

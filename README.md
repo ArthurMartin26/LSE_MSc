@@ -8,8 +8,11 @@ I do need to perform a simple easy bit of code (see the following: A1) which tra
 
 1) [BIG /HARD ] Create empowerment index - find varaibles (avaialable in both early 2010s and 2020s dataframes (df's)) we can use to create this index, create the index for women and then link it to the mpi results through ind_id merge on the mpi outputted pov.dta data
 2) [MEDIUM ] Aggregate and average MPI as well as empowerment metrics for each cluster, propably perform a group by function for this. This gives us indentification level MPI, empowerment metrics.
-3) [SMALL] Merge night light level data to cluster data based off v001 / culster id
+   
+4) [SMALL] Merge night light level data to cluster data based off v001 / culster id
+   
 4)**NEARLY complete** [MED/HARD] link previous clusters to new clusters based off long and lat coordinates (use a nearest neighbour aproach probs 5/10 km) to create a psuedo panel. 
+
 5) once panel is created perform econometric analysis!
 6) [SMALL/MED] change file structure. make one folder per country - then a final output folder per country so when merging between countries it is not having to be save in the most recent country folde
 7) **COMPLETE** [MED]create MPI for 2014 data ghana  

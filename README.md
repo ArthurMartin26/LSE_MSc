@@ -11,7 +11,8 @@ I do need to perform a simple easy bit of code (see the following: A1) which tra
 3) [SMALL] Merge night light level data to cluster data based off v001 / culster id
 4)**NEARLY complete** [MED/HARD] link previous clusters to new clusters based off long and lat coordinates (use a nearest neighbour aproach probs 5/10 km) to create a psuedo panel. 
 5) once panel is created perform econometric analysis!
-6) [SMALL/MED] change file structure. make one folder per country - then a final output folder per country so when merging between countries it is not having to be save in the most recent country folder 
+6) [SMALL/MED] change file structure. make one folder per country - then a final output folder per country so when merging between countries it is not having to be save in the most recent country folde
+7) **COMPLETE** [MED]create MPI for 2014 data ghana  
  
 
 #### A1 -example for ghana 22 gps.dta creation ####
@@ -25,4 +26,10 @@ save "$path_out/Ghana22_gps.dta", replace
 
 **Concerns and aspects to focus on**
 1) Clusters - are they representitive? if we are looking at average mpi and average empowerment is this really explantory?
-2) Empowerment - are we happy with the idea of averaging the empowerment - should be careful and decide maybe take a median value as opposed to the mean value. 
+2) Empowerment - are we happy with the idea of averaging the empowerment - should be careful and decide maybe take a median value as opposed to the mean value.
+
+**Notes when making previous mpi files**
+1) for age in months use : gen age_month_b = hv008 - hc32
+
+2) hv243e - computer in new script / old script - sh110l
+3) freezer new script - / freezer old script - sh110i

@@ -1,360 +1,0 @@
-StataFileTM:00001:01000:LiveGPH:                       :
-00005:00004:
-*! classname: bargraph_g
-*! family: bar
-*! command: bar diff_mpi, over(cluster22, sort(1) descending label(labsize(vsmall) angle(45)))     bargap(0)      ytitle("ŒîMPI (MPI22 - MPI14)")     title("Change in MPI by Cluster (2014 ‚Üí 2022)")     name(g_diffMPI_v, replace)
-*! command_date:  2 Feb 2026
-*! command_time: 17:01:56
-*! datafile: C:\Users\Arthur.Martin\OneDrive - Department of Health and Social Care\Documents\LSE\Diss\CODING\Ghana\Ghana_panel\panel_outputs\Ghana_linked_clusters.dta
-*! datafile_date:  2 Feb 2026 16:50
-*! scheme: s2color
-*! naturallywhite: 1
-*! xsize: 5.5
-*! ysize: 4
-*! end
-<BeginItem> serset K2d8090b8 
-<BeginSerset>
-<BeginSeries>
-.name = `"_values"'
-.label = `"mean of diff_mpi"'
-.format = `"%10.0g"'
-.type.set numeric
-.min =  -.3113508355443843
-.max =  .4179333097678803
-.median = (.)
-.pct25 = (.)
-.pct75 = (.)
-.categories =  207
-<EndSeries>
-<BeginSeries>
-.name = `"_variables"'
-.label = `""'
-.format = `"%16.0g"'
-.type.set numeric
-.min =  1
-.max =  1
-.median = (.)
-.pct25 = (.)
-.pct75 = (.)
-.categories =  1
-.lab_offset = (.)
-.vlabs.Declare __D_1 = `"mean of diff_mpi"'
-<EndSeries>
-<BeginSeries>
-.name = `"cluster22"'
-.label = `"group(cluster22)"'
-.format = `"%10.0g"'
-.type.set numeric
-.min =  1
-.max =  253
-.median = (.)
-.pct25 = (.)
-.pct75 = (.)
-.categories =  253
-.lab_offset = (.)
-.vlabs.Declare __D_1 = `"3"'
-.vlabs.Declare __D_2 = `"8"'
-.vlabs.Declare __D_3 = `"9"'
-.vlabs.Declare __D_4 = `"10"'
-.vlabs.Declare __D_5 = `"11"'
-.vlabs.Declare __D_6 = `"12"'
-.vlabs.Declare __D_7 = `"13"'
-.vlabs.Declare __D_8 = `"14"'
-.vlabs.Declare __D_9 = `"15"'
-.vlabs.Declare __D_10 = `"16"'
-.vlabs.Declare __D_11 = `"17"'
-.vlabs.Declare __D_12 = `"18"'
-.vlabs.Declare __D_13 = `"21"'
-.vlabs.Declare __D_14 = `"24"'
-.vlabs.Declare __D_15 = `"27"'
-.vlabs.Declare __D_16 = `"29"'
-.vlabs.Declare __D_17 = `"36"'
-.vlabs.Declare __D_18 = `"38"'
-.vlabs.Declare __D_19 = `"39"'
-.vlabs.Declare __D_20 = `"41"'
-.vlabs.Declare __D_21 = `"42"'
-.vlabs.Declare __D_22 = `"44"'
-.vlabs.Declare __D_23 = `"45"'
-.vlabs.Declare __D_24 = `"46"'
-.vlabs.Declare __D_25 = `"47"'
-.vlabs.Declare __D_26 = `"48"'
-.vlabs.Declare __D_27 = `"49"'
-.vlabs.Declare __D_28 = `"50"'
-.vlabs.Declare __D_29 = `"52"'
-.vlabs.Declare __D_30 = `"55"'
-.vlabs.Declare __D_31 = `"57"'
-.vlabs.Declare __D_32 = `"58"'
-.vlabs.Declare __D_33 = `"59"'
-.vlabs.Declare __D_34 = `"60"'
-.vlabs.Declare __D_35 = `"61"'
-.vlabs.Declare __D_36 = `"62"'
-.vlabs.Declare __D_37 = `"63"'
-.vlabs.Declare __D_38 = `"65"'
-.vlabs.Declare __D_39 = `"66"'
-.vlabs.Declare __D_40 = `"68"'
-.vlabs.Declare __D_41 = `"71"'
-.vlabs.Declare __D_42 = `"72"'
-.vlabs.Declare __D_43 = `"73"'
-.vlabs.Declare __D_44 = `"74"'
-.vlabs.Declare __D_45 = `"75"'
-.vlabs.Declare __D_46 = `"78"'
-.vlabs.Declare __D_47 = `"79"'
-.vlabs.Declare __D_48 = `"81"'
-.vlabs.Declare __D_49 = `"82"'
-.vlabs.Declare __D_50 = `"84"'
-.vlabs.Declare __D_51 = `"85"'
-.vlabs.Declare __D_52 = `"86"'
-.vlabs.Declare __D_53 = `"88"'
-.vlabs.Declare __D_54 = `"90"'
-.vlabs.Declare __D_55 = `"91"'
-.vlabs.Declare __D_56 = `"92"'
-.vlabs.Declare __D_57 = `"93"'
-.vlabs.Declare __D_58 = `"94"'
-.vlabs.Declare __D_59 = `"95"'
-.vlabs.Declare __D_60 = `"96"'
-.vlabs.Declare __D_61 = `"97"'
-.vlabs.Declare __D_62 = `"100"'
-.vlabs.Declare __D_63 = `"101"'
-.vlabs.Declare __D_64 = `"102"'
-.vlabs.Declare __D_65 = `"103"'
-.vlabs.Declare __D_66 = `"109"'
-.vlabs.Declare __D_67 = `"110"'
-.vlabs.Declare __D_68 = `"114"'
-.vlabs.Declare __D_69 = `"116"'
-.vlabs.Declare __D_70 = `"117"'
-.vlabs.Declare __D_71 = `"118"'
-.vlabs.Declare __D_72 = `"119"'
-.vlabs.Declare __D_73 = `"124"'
-.vlabs.Declare __D_74 = `"128"'
-.vlabs.Declare __D_75 = `"129"'
-.vlabs.Declare __D_76 = `"131"'
-.vlabs.Declare __D_77 = `"132"'
-.vlabs.Declare __D_78 = `"136"'
-.vlabs.Declare __D_79 = `"137"'
-.vlabs.Declare __D_80 = `"138"'
-.vlabs.Declare __D_81 = `"141"'
-.vlabs.Declare __D_82 = `"143"'
-.vlabs.Declare __D_83 = `"146"'
-.vlabs.Declare __D_84 = `"147"'
-.vlabs.Declare __D_85 = `"148"'
-.vlabs.Declare __D_86 = `"151"'
-.vlabs.Declare __D_87 = `"152"'
-.vlabs.Declare __D_88 = `"153"'
-.vlabs.Declare __D_89 = `"156"'
-.vlabs.Declare __D_90 = `"159"'
-.vlabs.Declare __D_91 = `"160"'
-.vlabs.Declare __D_92 = `"161"'
-.vlabs.Declare __D_93 = `"163"'
-.vlabs.Declare __D_94 = `"165"'
-.vlabs.Declare __D_95 = `"167"'
-.vlabs.Declare __D_96 = `"168"'
-.vlabs.Declare __D_97 = `"169"'
-.vlabs.Declare __D_98 = `"172"'
-.vlabs.Declare __D_99 = `"174"'
-.vlabs.Declare __D_100 = `"175"'
-.vlabs.Declare __D_101 = `"176"'
-.vlabs.Declare __D_102 = `"177"'
-.vlabs.Declare __D_103 = `"179"'
-.vlabs.Declare __D_104 = `"180"'
-.vlabs.Declare __D_105 = `"182"'
-.vlabs.Declare __D_106 = `"183"'
-.vlabs.Declare __D_107 = `"185"'
-.vlabs.Declare __D_108 = `"189"'
-.vlabs.Declare __D_109 = `"191"'
-.vlabs.Declare __D_110 = `"192"'
-.vlabs.Declare __D_111 = `"193"'
-.vlabs.Declare __D_112 = `"195"'
-.vlabs.Declare __D_113 = `"197"'
-.vlabs.Declare __D_114 = `"199"'
-.vlabs.Declare __D_115 = `"205"'
-.vlabs.Declare __D_116 = `"209"'
-.vlabs.Declare __D_117 = `"210"'
-.vlabs.Declare __D_118 = `"211"'
-.vlabs.Declare __D_119 = `"214"'
-.vlabs.Declare __D_120 = `"217"'
-.vlabs.Declare __D_121 = `"218"'
-.vlabs.Declare __D_122 = `"219"'
-.vlabs.Declare __D_123 = `"222"'
-.vlabs.Declare __D_124 = `"224"'
-.vlabs.Declare __D_125 = `"225"'
-.vlabs.Declare __D_126 = `"226"'
-.vlabs.Declare __D_127 = `"227"'
-.vlabs.Declare __D_128 = `"228"'
-.vlabs.Declare __D_129 = `"229"'
-.vlabs.Declare __D_130 = `"230"'
-.vlabs.Declare __D_131 = `"231"'
-.vlabs.Declare __D_132 = `"232"'
-.vlabs.Declare __D_133 = `"233"'
-.vlabs.Declare __D_134 = `"234"'
-.vlabs.Declare __D_135 = `"235"'
-.vlabs.Declare __D_136 = `"237"'
-.vlabs.Declare __D_137 = `"238"'
-.vlabs.Declare __D_138 = `"241"'
-.vlabs.Declare __D_139 = `"244"'
-.vlabs.Declare __D_140 = `"247"'
-.vlabs.Declare __D_141 = `"248"'
-.vlabs.Declare __D_142 = `"251"'
-.vlabs.Declare __D_143 = `"253"'
-.vlabs.Declare __D_144 = `"255"'
-.vlabs.Declare __D_145 = `"258"'
-.vlabs.Declare __D_146 = `"263"'
-.vlabs.Declare __D_147 = `"266"'
-.vlabs.Declare __D_148 = `"269"'
-.vlabs.Declare __D_149 = `"277"'
-.vlabs.Declare __D_150 = `"288"'
-.vlabs.Declare __D_151 = `"293"'
-.vlabs.Declare __D_152 = `"297"'
-.vlabs.Declare __D_153 = `"304"'
-.vlabs.Declare __D_154 = `"306"'
-.vlabs.Declare __D_155 = `"308"'
-.vlabs.Declare __D_156 = `"317"'
-.vlabs.Declare __D_157 = `"323"'
-.vlabs.Declare __D_158 = `"324"'
-.vlabs.Declare __D_159 = `"326"'
-.vlabs.Declare __D_160 = `"327"'
-.vlabs.Declare __D_161 = `"330"'
-.vlabs.Declare __D_162 = `"335"'
-.vlabs.Declare __D_163 = `"337"'
-.vlabs.Declare __D_164 = `"339"'
-.vlabs.Declare __D_165 = `"341"'
-.vlabs.Declare __D_166 = `"343"'
-.vlabs.Declare __D_167 = `"345"'
-.vlabs.Declare __D_168 = `"348"'
-.vlabs.Declare __D_169 = `"349"'
-.vlabs.Declare __D_170 = `"352"'
-.vlabs.Declare __D_171 = `"358"'
-.vlabs.Declare __D_172 = `"362"'
-.vlabs.Declare __D_173 = `"364"'
-.vlabs.Declare __D_174 = `"365"'
-.vlabs.Declare __D_175 = `"370"'
-.vlabs.Declare __D_176 = `"372"'
-.vlabs.Declare __D_177 = `"374"'
-.vlabs.Declare __D_178 = `"383"'
-.vlabs.Declare __D_179 = `"389"'
-.vlabs.Declare __D_180 = `"391"'
-.vlabs.Declare __D_181 = `"394"'
-.vlabs.Declare __D_182 = `"397"'
-.vlabs.Declare __D_183 = `"399"'
-.vlabs.Declare __D_184 = `"403"'
-.vlabs.Declare __D_185 = `"412"'
-.vlabs.Declare __D_186 = `"416"'
-.vlabs.Declare __D_187 = `"417"'
-.vlabs.Declare __D_188 = `"423"'
-.vlabs.Declare __D_189 = `"427"'
-.vlabs.Declare __D_190 = `"430"'
-.vlabs.Declare __D_191 = `"434"'
-.vlabs.Declare __D_192 = `"435"'
-.vlabs.Declare __D_193 = `"438"'
-.vlabs.Declare __D_194 = `"444"'
-.vlabs.Declare __D_195 = `"450"'
-.vlabs.Declare __D_196 = `"452"'
-.vlabs.Declare __D_197 = `"457"'
-.vlabs.Declare __D_198 = `"458"'
-.vlabs.Declare __D_199 = `"459"'
-.vlabs.Declare __D_200 = `"462"'
-.vlabs.Declare __D_201 = `"464"'
-.vlabs.Declare __D_202 = `"466"'
-.vlabs.Declare __D_203 = `"483"'
-.vlabs.Declare __D_204 = `"485"'
-.vlabs.Declare __D_205 = `"493"'
-.vlabs.Declare __D_206 = `"497"'
-.vlabs.Declare __D_207 = `"503"'
-.vlabs.Declare __D_208 = `"518"'
-.vlabs.Declare __D_209 = `"521"'
-.vlabs.Declare __D_210 = `"530"'
-.vlabs.Declare __D_211 = `"532"'
-.vlabs.Declare __D_212 = `"536"'
-.vlabs.Declare __D_213 = `"544"'
-.vlabs.Declare __D_214 = `"546"'
-.vlabs.Declare __D_215 = `"547"'
-.vlabs.Declare __D_216 = `"548"'
-.vlabs.Declare __D_217 = `"550"'
-.vlabs.Declare __D_218 = `"552"'
-.vlabs.Declare __D_219 = `"553"'
-.vlabs.Declare __D_220 = `"555"'
-.vlabs.Declare __D_221 = `"556"'
-.vlabs.Declare __D_222 = `"557"'
-.vlabs.Declare __D_223 = `"559"'
-.vlabs.Declare __D_224 = `"560"'
-.vlabs.Declare __D_225 = `"561"'
-.vlabs.Declare __D_226 = `"562"'
-.vlabs.Declare __D_227 = `"565"'
-.vlabs.Declare __D_228 = `"567"'
-.vlabs.Declare __D_229 = `"568"'
-.vlabs.Declare __D_230 = `"570"'
-.vlabs.Declare __D_231 = `"572"'
-.vlabs.Declare __D_232 = `"573"'
-.vlabs.Declare __D_233 = `"574"'
-.vlabs.Declare __D_234 = `"578"'
-.vlabs.Declare __D_235 = `"579"'
-.vlabs.Declare __D_236 = `"580"'
-.vlabs.Declare __D_237 = `"583"'
-.vlabs.Declare __D_238 = `"585"'
-.vlabs.Declare __D_239 = `"590"'
-.vlabs.Declare __D_240 = `"594"'
-.vlabs.Declare __D_241 = `"595"'
-.vlabs.Declare __D_242 = `"597"'
-.vlabs.Declare __D_243 = `"598"'
-.vlabs.Declare __D_244 = `"601"'
-.vlabs.Declare __D_245 = `"606"'
-.vlabs.Declare __D_246 = `"610"'
-.vlabs.Declare __D_247 = `"611"'
-.vlabs.Declare __D_248 = `"612"'
-.vlabs.Declare __D_249 = `"613"'
-.vlabs.Declare __D_250 = `"614"'
-.vlabs.Declare __D_251 = `"615"'
-.vlabs.Declare __D_252 = `"616"'
-.vlabs.Declare __D_253 = `"617"'
-<EndSeries>
-<BeginSeries>
-.name = `"_grp_sort"'
-.label = `""'
-.format = `"%10.0g"'
-.type.set numeric
-.min =  -.3113508355443843
-.max =  .4179333097678803
-.median = (.)
-.pct25 = (.)
-.pct75 = (.)
-.categories =  207
-<EndSeries>
-.weight_id = (.)
-.miss_opts = "omitallmiss"
-.sortorder = "-_grp_sort -cluster22 _variables"
-<BeginSersetData>
-sersetreadwrite    ˝   ˇ˝ˇˇ_values                                                                                                                                               _variables                                                                                                                                            cluster22                                                                                                                                             _grp_sort                                                                                                                                             %10.0g                                                   %16.0g                                                   %10.0g                                                   %10.0g                                                   ∑¥,Ì”ø      ?      ?∑¥,Ì”ø`,WZkø⁄?      ?     †o@`,WZkø⁄?`,WZkø⁄?        ¿c@`,WZkø⁄?˜Rµó/’?        Äo@˜Rµó/’?©Wˇ8?n”?        ÄE@©Wˇ8?n”?ëÿ>SÆ”?        ‡k@ëÿ>SÆ”?ùÍÎX∑í—?        ¿n@ùÍÎX∑í—?«cÿòÌèœ?        @i@«cÿòÌèœ?‚ﬁR¡bbœ?        ¿i@‚ﬁR¡bbœ?Ú'∞ü¿~Œ?         C@Ú'∞ü¿~Œ?n±–‘À…?         i@n±–‘À…?yæ Á«?        ÄT@yæ Á«?¸"QjÏa∆?        @h@¸"QjÏa∆?SUUUUU≈?        †o@SUUUUU≈?éz˘•cYƒ?        ¿b@éz˘•cYƒ?ÙÁÅ}4Eƒ?        `g@ÙÁÅ}4Eƒ?iHÃ€√?        ¿R@iHÃ€√?ÒœÑ≥T¬?         c@ÒœÑ≥T¬?˜üSëÂ¡?        `h@˜üSëÂ¡?t«q«¡?         G@t«q«¡?V¨W¨¡?         j@V¨W¨¡?I¢X&:¿?        `o@I¢X&:¿?u¨eËÄ›æ?        Ä_@u¨eËÄ›æ?À≥¢ëÄoæ?         &@À≥¢ëÄoæ?¥ˇÓãlæ?        @R@¥ˇÓãlæ?éì@\®9Ω?         6@éì@\®9Ω?Ë2®&6Ω?        ¿g@Ë2®&6Ω?˙áMÍª?         8@˙áMÍª?(®ı+jª?         0@(®ı+jª?PË¥ÅNª?        ¿[@PË¥ÅNª?ò’‡9Eª?        `m@ò’‡9Eª?Ç∞Y¯ª?         A@Ç∞Y¯ª?sò1ƒÌÜπ?        @\@sò1ƒÌÜπ?üia¶Öô∂?        ‡m@üia¶Öô∂?àæŒ6A∂?        @j@àæŒ6A∂?.`≠Äµ∂?         d@.`≠Äµ∂?©ìÚ|µ?        ‡n@©ìÚ|µ?Ó`ÃJ£G¥?         .@Ó`ÃJ£G¥?>õ
-ÆÌ¥?         j@>õ
-ÆÌ¥? ‘ÙUƒT≥?         h@ ‘ÙUƒT≥?KM4—D≥?         Q@KM4—D≥?‘—˜´C≥?        †g@‘—˜´C≥?o«q«±?        ¿h@o«q«±?NÑhvÔ2±?        ÄX@NÑhvÔ2±?ﬁ^–mq±?        `i@ﬁ^–mq±?v	Ì%¥ó∞?         I@v	Ì%¥ó∞?–˘õø˘õØ?        ÄC@–˘õø˘õØ?ãpÿˆ#NØ?        Äf@ãpÿˆ#NØ?õáëœmÆ?        @]@õáëœmÆ?"··Æ?         F@"··Æ?ÿ›››››≠?        †`@ÿ›››››≠?#6“a#≠?         W@#6“a#≠?|q‰ÓLõ¨?        `f@|q‰ÓLõ¨?HTîÒcŒ´?        Äm@HTîÒcŒ´?\*¬-5´?        @n@\*¬-5´?)f:È-´?        †f@)f:È-´?¬©î‚4©?         H@¬©î‚4©?@˝Ùß?        ÄQ@@˝Ùß?¯≈ÉÖÍÃß?        ÄH@¯≈ÉÖÍÃß?ƒŸiô´Pß?        ÄY@ƒŸiô´Pß?8;
-ˇ6¶?         h@8;
-ˇ6¶?‰\y@≤Œ•?        Äe@‰\y@≤Œ•?æä[°∏•?        ÄI@æä[°∏•?â,bº_•?        ÄS@â,bº_•?ÀM!–§?        @d@ÀM!–§?—T ≥Âd§?         E@—T ≥Âd§?EQEQ§?        ¿^@EQEQ§?∫q˚:ø1§?        †h@∫q˚:ø1§?uñJ‚≤§?         T@uñJ‚≤§?ÇJ∏ìJ∏£?         ^@ÇJ∏ìJ∏£?ºàÕ‡-b£?         Z@ºàÕ‡-b£?Û¥#≥hu¢?        @c@Û¥#≥hu¢?Óô;dÓ†?        Än@Óô;dÓ†?AA†?        @W@AA†?4 “Õö1†?        ¿Y@4 “Õö1†?dQiÒHìü?         ;@dQiÒHìü?zÂ…:Wû?         `@zÂ…:Wû?pb±!õ?        ‡g@pb±!õ?!p≈p≈ö?        @V@!p≈p≈ö?ûôôôôôô?        ¿d@ûôôôôôô?˚úè¡˘ò?         ?@˚úè¡˘ò?5é„8é„ò?        @P@5é„8é„ò?ÜaÜaò?         \@ÜaÜaò?¬l¬ló?        Ä@@¬l¬ló?l¡l¡ñ?         ?l¡l¡ñ?„¿ä∏V3ñ?        †n@„¿ä∏V3ñ? nQ©ï?        ¿l@ nQ©ï?≈\X∆7Æî?        @U@≈\X∆7Æî?ÉÆG·zî?        @Z@ÉÆG·zî?i/°ΩÑˆí?        ‡c@i/°ΩÑˆí?ˇ¸è?         "@ˇ¸è?…§xÅLäá?        †b@…§xÅLäá?Ë2!˛∑+É?         <@Ë2!˛∑+É?
-°
-°Ä?        ¿]@
-°
-°Ä?tÂ…:W~?        ÄU@tÂ…:W~?rÂ…:W~?        @e@rÂ…:W~?†ê'YÎ9~?         n@†ê'YÎ9~?–0ç”x?        @Q@–0ç”x? —•êïx?        ÄD@ —•êïx?h‹4u?         D@h‹4u?Ä0ilÆwe?        ¿S@Ä0ilÆwe?Ä—„–„^?        †d@Ä—„–„^?                @o@                         n@                         k@                        Äh@                        @f@                         f@                        ‡e@                        †e@                        ‡d@                        `d@                        †c@                        Äc@                         a@                         a@                        ‡`@                        Ä`@                        ``@                         `@                        @_@                         _@                         ]@                        Ä\@                        ¿V@                         V@                        ¿U@                         R@                        ¿Q@                        ÄP@                         P@                        ÄO@                         O@                        ÄL@                         L@                        ÄJ@                         J@                        ÄG@                        ÄF@                         7@                         4@                         3@                         *@                         $@                          @                         @                         @                         @                         @         ΩöxV4Bø        @[@ ΩöxV4BøÄ»©VSÿPø         i@Ä»©VSÿPø(?ﬁ∑aÇbø        ÄV@(?ﬁ∑aÇbøêu˘?GÅeø        `k@êu˘?GÅeø p≈p≈jø         o@ p≈p≈jøÃ¥ãπaÎpø        †k@Ã¥ãπaÎpøxãD”£Æsø        ¿X@xãD”£Æsø¿I)†≤ßvø        Äj@¿I)†≤ßvøËp$æ’Äø        †m@Ëp$æ’ÄøSOa=ÖıÑø        ¿P@SOa=ÖıÑøﬂP°ÏÖø        ¿f@ﬂP°ÏÖøÄu¬ Váø        `a@Äu¬ Váø<g©$.ãø        Äa@<g©$.ãø ;ÓDÅVãø         N@ ;ÓDÅVãø∆€@òÙîåø        Äb@∆€@òÙîåør¿nèµçø         ,@r¿nèµçøPØõ˚fœèø        ÄB@PØõ˚fœèøÙ@Ì#`iîø        @k@Ù@Ì#`iîø†FÊ7Çñø         1@†FÊ7Çñø~OÑ#∞‘òø         (@~OÑ#∞‘òø>òqëÑôø         U@>òqëÑôøL$πû[™ôø        Äk@L$πû[™ôøÚˆÂÀôø        Äd@ÚˆÂÀôø∫≥‘ßæ6öø        ¿a@∫≥‘ßæ6öøÄy!y™-úø         o@Äy!y™-úø%6“a#ùø         M@%6“a#ùø&lXlXùø         [@&lXlXùøÏÅ31¿ûø         m@ÏÅ31¿ûø 3–4üø        `l@ 3–4üøÑË’ %üø        †a@ÑË’ %üø‡¸)ıß‘üø        †j@‡¸)ıß‘üøAA†ø        ÄK@AA†ø–¥∆-ë†ø         9@–¥∆-ë†ø"ó¯ó¯†ø         S@"ó¯ó¯†ø°ø        ÄM@°ø°ø          @°ø°ø         2@°ø‚≠‹)°ø         e@‚≠‹)°øπÒfƒõ°ø         b@πÒfƒõ°ø‚%f-–°ø        †l@‚%f-–°øãîÅß[£ø         Y@ãîÅß[£ø;ó∆óC§ø        `c@;ó∆óC§øSUUUUU•ø        @`@SUUUUU•øP¸È2µ¶ø        `j@P¸È2µ¶ø¢<›ö¶ø        ÄN@¢<›ö¶øg›˘¿2O¶ø        ¿W@g›˘¿2O¶øõo˘ño˘¶ø         K@õo˘ño˘¶øàÙÈj˙¶ø        ÄW@àÙÈj˙¶øqp±¡≈ßø         d@qp±¡≈ßø6(+ƒÿ®ø         @@6(+ƒÿ®øàÅàÅ®ø        `b@àÅàÅ®ø◊(/Õ;	©ø         b@◊(/Õ;	©øjËÄ›k©ø        @a@jËÄ›k©ø¶æ˜qﬂ™ø         m@¶æ˜qﬂ™ø‡∂m€∂m´ø        ‡h@‡∂m€∂m´ø¿|*Pç°´ø         X@¿|*Pç°´ø$«q«q¨ø         e@$«q«q¨ø<æ±„;Æø        Ä]@<æ±„;ÆøŒáa“]Øø         :@Œáa“]Øø¿ˇˇˇˇˇØø        @m@¿ˇˇˇˇˇØø|Òƒw∞ø        @^@|Òƒw∞øÉÒƒw∞ø        ¿T@ÉÒƒw∞øÆÈ2P≤ø        Äg@ÆÈ2P≤øº)S
-	5≤ø        `e@º)S
-	5≤ø∏ZàO≤ø         l@∏ZàO≤ø˘)ıß‘ü≤ø         c@˘)ıß‘ü≤øH÷Œ‚Î≤ø        @T@H÷Œ‚Î≤ø}∏Ìæ¥≥ø         =@}∏Ìæ¥≥øí.êmÁ€¥ø        Äl@í.êmÁ€¥øå;$7Ç·¥ø        ¿m@å;$7Ç·¥øXUUUUUµø        ¿_@XUUUUUµø:î3(r∂ø        ‡i@:î3(r∂ø§<›ö∂ø        @Y@§<›ö∂ø jMÅø¢∂ø        ‡l@ jMÅø¢∂øÑwwwww∑ø        Äi@Ñwwwww∑ø∆§xÅLä∑ø        ÄA@∆§xÅLä∑ø™iüŸGj∏ø        @l@™iüŸGj∏ø .≈ÄWπø        ¿\@ .≈ÄWπøVõµYõµπø        `n@VõµYõµπøˇwÎº∫ø        ¿k@ˇwÎº∫ø˙lfq∫ø         >@˙lfq∫ø¥Ãì"È∫ø         g@¥Ãì"È∫øﬂE≥âΩø         l@ﬂE≥âΩø6û‹‚…-æø        ¿Z@6û‹‚…-æø¨£<ó·æø         g@¨£<ó·æø,)‰!¯*øø         f@,)‰!¯*øø
-‡xtNôøø        @S@
-‡xtNôøø¥Sìï¿ø        ÄZ@¥Sìï¿øë≤˘ˆ€¿ø        ‡j@ë≤˘ˆ€¿øúE´ìÚ¿ø        @b@úE´ìÚ¿øì1ì1¡ø        ‡b@ì1ì1¡økgHÃ€¬ø         @kgHÃ€¬ø™õü7a¬ø        Ä[@™õü7a¬ø%Q%Q¬ø        ¿j@%Q%Q¬øfjrlﬁ√ø        ‡f@fjrlﬁ√ø*ˆÛ∑îƒø        ¿e@*ˆÛ∑îƒøXfffff∆ø        ‡a@Xfffff∆øÂ8é„8é«ø        ¿`@Â8é„8é«ø-~çÇ”‚«ø        @g@-~çÇ”‚«øHlßXlß»ø        †i@HlßXlß»ø…ªªªªª…ø        ÄR@…ªªªªª…øﬁX¯ÂÃø         B@ﬁX¯ÂÃø√0√0Ãø         5@√0√0ÃøÍÊÊÊÊÊŒø        @X@ÍÊÊÊÊÊŒø%%q:–X–ø        Ä^@%%q:–X–ø∑¥,Ì”ø         k@∑¥,Ì”ø
-<EndSersetData>
-<EndSerset>
-<EndItem>
-<BeginItem> scheme Ke3ec428 
-.setscheme , scheme(s2color) naturallywhite(1)
-<EndItem>
-<BeginItem> bargraph_g K2d8096f8 <UseScheme> Ke3ec428
-._ngrps = 2
-.vargroup = 2
-.group = 3
-._nsorts = 0 + 1
-.grpsrt = 1 + 2 + 1
-<BeginCmd>
-._map_sersets K2d8090b8
-local fullopts axopt(descending label(labsize(vsmall) angle(45))) bargap(0) ytitle("ŒîMPI (MPI22 - MPI14)") title("Change in MPI by Cluster (2014 ‚Üí 2022)") bndoptions(`"(, )"')
-<EndCmd>
-.command = `"bar diff_mpi, over(cluster22, sort(1) descending label(labsize(vsmall) angle(45)))     bargap(0)      ytitle("ŒîMPI (MPI22 - MPI14)")     title("Change in MPI by Cluster (2014 ‚Üí 2022)")     name(g_diffMPI_v, replace)"'
-.date = " 2 Feb 2026"
-.time = "17:01:56"
-.dta_file = "C:\Users\Arthur.Martin\OneDrive - Department of Health and Social Care\Documents\LSE\Diss\CODING\Ghana\Ghana_panel\panel_outputs\Ghana_linked_clusters.dta"
-.dta_date = " 2 Feb 2026 16:50"
-.drawgraph , nomaybedraw
-<EndItem>

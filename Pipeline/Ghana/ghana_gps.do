@@ -12,8 +12,8 @@ ssc install geonear, replace
 
 *global path_in "C:\Users\Arthur.Martin\OneDrive - Department of Health and Social Care\Documents\LSE\Diss\CODING\Ghana\Ghana_panel"
 global path_out "C:\Users\Arthur.Martin\OneDrive - Department of Health and Social Care\Documents\LSE\Diss\CODING\DATA\Ghana\Panel\Outputs"
-global path_in22 "C:\Users\Arthur.Martin\OneDrive - Department of Health and Social Care\Documents\LSE\Diss\CODING\DATA\Ghana\2022\GH_2022_DHS_GEOG\GHGE8AFL"
-global path_in14 "C:\Users\Arthur.Martin\OneDrive - Department of Health and Social Care\Documents\LSE\Diss\CODING\DATA\Ghana\2014\GH_2014_DHS_GEOG\GHGE71FL"
+global path_in22 "C:\Users\Arthur.Martin\OneDrive - Department of Health and Social Care\Documents\LSE\Diss\CODING\DATA\Ghana\2022\GH_2022_DHS_GEOG"
+global path_in14 "C:\Users\Arthur.Martin\OneDrive - Department of Health and Social Care\Documents\LSE\Diss\CODING\DATA\Ghana\2014\GH_2014_DHS_GEOG"
 
 **### Ghana 2022 ####
 
@@ -22,7 +22,7 @@ global path_in14 "C:\Users\Arthur.Martin\OneDrive - Department of Health and Soc
 ** read in the shape data and save as a .dta file
 
 
-spshape2dta "$path_in22\GHGE8AFL.shp" , replace
+spshape2dta "$path_in22\GHGE8AFL\GHGE8AFL.shp" , replace
 use"GHGE8AFL.dta",clear
 
 rename DHSCLUST cluster
@@ -41,7 +41,7 @@ save "$path_out/Ghana22_clean_gps.dta", replace
 
 
 
-spshape2dta "$path_in14\GHGE71FL.shp" , replace
+spshape2dta "$path_in14\GHGE71FL\GHGE71FL.shp" , replace
 use"GHGE71FL.dta",clear
 
 rename DHSCLUST cluster
@@ -103,12 +103,42 @@ order cluster22 cluster14
 save "$path_out\Ghana_linked_clusters.dta", replace
 
 
+*******************************************************
+****** Link clusters to the Nightlights data **********
+*******************************************************
+
+** import the data which has the nightlights in it 
+import delimited "$path_in22\GHGC8AFL\GHGC8AFL.csv",clear
+keep dhsclust nightlights_composite
+rename nightlights_composite nl22
+rename dhsclust cluster22
+
+save "$path_out\Ghana22_nl.dta", replace
+
+***do the same for 2014
+
+** import the data which has the nightlights in it 
+import delimited "$path_in14\GHGC72FL\GHGC72FL.csv",clear
+keep dhsclust nightlights_composite
+rename nightlights_composite nl14
+rename dhsclust cluster14
+
+save "$path_out\Ghana14_nl.dta", replace
 
 
 
+use "$path_out\Ghana_linked_clusters.dta", clear
+
+merge m:1 cluster22 using "$path_out/Ghana22_nl.dta"
+keep if inlist(_merge, 1, 3)
+drop _merge
+
+merge m:1 cluster14 using "$path_out/Ghana14_nl.dta"
+keep if inlist(_merge, 1, 3)
+drop _merge
 
 
-
+save "$path_out\Ghana_nl_final.dta", replace
 
 
 

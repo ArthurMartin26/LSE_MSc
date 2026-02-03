@@ -41,3 +41,5 @@ save "$path_out/Ghana22_gps.dta", replace
 
 **Last update**
 02.02 17;11 - made the MPI panel data from ghana, next need to link night lights, then create empowernemnt index and run the regression. Once we have for Ghana we can move onto other countries! 
+03.02 - changes the file paths and structure to put the pipeline repo onto git but all of the data is in another folder so we do not have data on git only scripts 
+

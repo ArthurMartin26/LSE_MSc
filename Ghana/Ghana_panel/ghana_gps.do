@@ -92,7 +92,7 @@ geodist lat22 lon22 lat14 lon14, gen(dist_km)
 
 bysort cluster22 (dist_km): keep if _n==1
 
-keep if dist_km <= 5
+keep if dist_km <= 10
 ** not sure if this is the 'best' way to select nearest neighbouts but it works
 bysort cluster14 (dist_km): keep if _n==1
 

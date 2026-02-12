@@ -442,13 +442,13 @@ summ sw
 		
 	
 *** Next, indicate to STATA where the igrowup_restricted.ado file is stored:	
-adopath + "C:\Users\Arthur.Martin\OneDrive - Department of Health and Social Care\Documents\LSE\Diss\CODING\Pipeline\WHO_child"
+adopath + "C:\Users\Arthur.Martin\OneDrive - Department of Health and Social Care\Documents\LSE\Diss\CODING\DATA\WHO"
 
 
 /* We use 'reflib' to specify the package directory where the .dta files 
 containing the WHO Growth reference are stored. Note that we use strX to specity 
 the length of the path in string. */		
-gen str200 reflib="C:\WHO 2007 Stata"
+gen str200 reflib="C:\Users\Arthur.Martin\OneDrive - Department of Health and Social Care\Documents\LSE\Diss\CODING\DATA\WHO\WHO_anthroplus"
 lab var reflib "Directory of reference tables"
 
 
@@ -549,7 +549,7 @@ for men. However, to compute the BMI-for-age, we will need to extract the weight
 and height variable from the PR file for boys 15-19 years as it is not present 
 in the individual MR file */
 
-use "$path_in/ETPR71L.DTA", clear
+use "$path_in/ETPR71FL.DTA", clear
 	
 gen double ind_id = hv001*1000000 + hv002*100 + hvidx 
 format ind_id %20.0g
@@ -650,19 +650,19 @@ Source of ado file: https://www.who.int/growthref/tools/en/
 */
 	
 *** Indicate to STATA where the igrowup_restricted.ado file is stored:	
-adopath + "C:\Users\Arthur.Martin\OneDrive - Department of Health and Social Care\Documents\LSE\Diss\CODING\Pipeline\WHO_child"
+adopath + "C:\Users\Arthur.Martin\OneDrive - Department of Health and Social Care\Documents\LSE\Diss\CODING\DATA\WHO"
 
 
 /* We use 'reflib' to specify the package directory where the .dta files 
 containing the WHO Growth reference are stored. Note that we use strX to specity 
 the length of the path in string. */		
-gen str100 reflib="C:\WHO 2007 Stata"
+gen str200 reflib="C:\Users\Arthur.Martin\OneDrive - Department of Health and Social Care\Documents\LSE\Diss\CODING\DATA\WHO\WHO_anthroplus"
 lab var reflib "Directory of reference tables"
 
 
 /* We use datalib to specify the working directory where the input STATA data
 set containing the anthropometric measurement is stored. */
-gen str100 datalib = "$path_out" 
+gen str200 datalib = "$path_out" 
 lab var datalib "Directory for datafiles"
 
 
@@ -2060,5 +2060,4 @@ order MPI_1 H_1 A_1 vulnerable_1 severe_1 cont1_nutri_1 cont1_cm_1 cont1_edu_1 c
 
 codebook, compact
 
-clear
 

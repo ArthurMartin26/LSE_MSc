@@ -14,6 +14,13 @@ set maxvar 10000
 set mem 500m
 cap log close
 
+*** Working Folder Path ***
+global path_in "C:\Users\Arthur.Martin\OneDrive - Department of Health and Social Care\Documents\LSE\Diss\CODING\DATA\Ghana\2022\GH_2022_DHS_Standard" 
+global path_out "C:\Users\Arthur.Martin\OneDrive - Department of Health and Social Care\Documents\LSE\Diss\CODING\DATA\Ghana\2022\Outputs"
+global who_child "C:\Users\Arthur.Martin\OneDrive - Department of Health and Social Care\Documents\LSE\Diss\CODING\DATA\WHO\WHO_child"
+global path_ado "C:"
+
+
 
 *** Working Folder Path ***
 global path_in "C:\Users\Arthur.Martin\OneDrive - Department of Health and Social Care\Documents\LSE\Diss\CODING\DATA\Ethiopia\2016\ET_2016_DHS_Standard" 
@@ -69,7 +76,7 @@ keep hc1 hc2 hc3 hc13 hc15 hv120 hv104 hv105 ind_id child_KR hc18 hc17 hc19 hc30
 
 *** Next, indicate to STATA where the igrowup_restricted.ado file is stored:
 	***Source of ado file: http://www.who.int/childgrowth/software/en/
-adopath + "C:\Users\Arthur.Martin\OneDrive - Department of Health and Social Care\Documents\LSE\Diss\CODING\Pipeline\WHO_child"
+adopath + "C:\Users\Arthur.Martin\OneDrive - Department of Health and Social Care\Documents\LSE\Diss\CODING\DATA\WHO"
 
 
 *** We will now proceed to create three nutritional variables: 
@@ -82,7 +89,7 @@ adopath + "C:\Users\Arthur.Martin\OneDrive - Department of Health and Social Car
 containing the WHO Child Growth Standards are stored. Note that we use 
 strX to specify the length of the path in string. If the path is long, 
 you may specify str55 or more, so it will run. */	
-gen str200 reflib="C:\igrowup_stata"
+gen str200 reflib="C:\Users\Arthur.Martin\OneDrive - Department of Health and Social Care\Documents\LSE\Diss\CODING\DATA\WHO\WHO_child"
 lab var reflib "Directory of reference tables"
 
 

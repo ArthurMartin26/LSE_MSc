@@ -43,3 +43,4 @@ be cooercision but we want to be conservative) 0 when husband decided alone
 
 Weighting:  Kabeer (1999) urges matching indicators to consequential significance - so decision power (A) 0.7 and 
 Violence attitudes (B) 0.3 - we can test some of these weights - look into weight testing. 
+

@@ -204,7 +204,7 @@ sort diff_nl
 graph bar diff_nl, ///
     over(cluster22, sort(1) descending label(labsize(vsmall) angle(45))) ///
     bargap(0) ///
-    ytitle("Δ Nightlights (nl22 - nl14)") ///
+    ytitle("delta Nightlights (nl22 - nl14)") ///
     title("Change in Nightlights by Cluster (2014 → 2022)") ///
     name(g_diffNL_v, replace)
 
@@ -213,7 +213,7 @@ graph export "$path_out/diff_nl.png", replace
 graph bar diff_H, ///
     over(cluster22, sort(1) descending label(labsize(vsmall) angle(45))) ///
     bargap(0) ///
-    ytitle("Δ MPI headcount (nl22 - nl14)") ///
+    ytitle("delta MPI headcount (nl22 - nl14)") ///
     title("Change in Headcount by Cluster (2014 → 2022)") ///
     name(g_diffH_v, replace)
 	

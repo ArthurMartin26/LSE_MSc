@@ -39,8 +39,6 @@ save "$path_out/Ghana22_clean_gps.dta", replace
 ***********************************************
 ** Ghana 2014 *********************************
 
-
-
 spshape2dta "$path_in14\GHGE71FL\GHGE71FL.shp" , replace
 use"GHGE71FL.dta",clear
 
@@ -52,7 +50,6 @@ keep cluster lon lat year
 
 compress
 
-
 save "$path_out/Ghana14_clean_gps.dta", replace
 
 **************************************************
@@ -63,7 +60,6 @@ use "$path_out\Ghana22_clean_gps.dta", clear
 rename cluster cluster22
 rename lon lon22
 rename lat lat22
-
 
 compress
 save "$path_out\Ghana22_mastergps.dta", replace

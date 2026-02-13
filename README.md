@@ -1,7 +1,13 @@
-#****OBSOLETE** **NO LONGER IN USE** **
 
 
-# LSE_MSc - do this all for Ghana, then if we can replicate for other countries then great.
+****OBSOLETE** **NO LONGER IN USE** **
+
+
+
+
+
+
+LSE_MSc - do this all for Ghana, then if we can replicate for other countries then great.
 This is my MSc coding repo, it will be mainly used for my dissertation but also may include some problem set code 
 Updates- working changes, we have selected a set of SSA nations for which we have DHS files for as well as geospatial data. In the geospatial data we have nightlight data available so I do not need to calculate these. 
 
